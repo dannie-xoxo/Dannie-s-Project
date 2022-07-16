@@ -1,0 +1,45 @@
+
+
+ @media(min-width: 769px){
+   .main-header ,
+   .main-nav,
+   .row {
+    display: flex;
+    
+     
+   } 
+   .main-header {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1; 
+    }
+
+    body {
+        padding-top: 70px;
+    }
+    
+   }
+   .col {
+       flex: 1 50%;
+       
+   }
+    .row {
+        flex-wrap: wrap;
+    }
+
+@media(min-width: 1025px){
+    .main-header {
+        flex-direction: row;  
+        justify-content: space-between;
+
+    }
+
+ .col {
+     flex-basis: 0;
+ }
+  
+
+}

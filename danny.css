@@ -1,0 +1,156 @@
+@font-face {
+    src: url("August Script Bold Free.ttf");
+    font-family: august;
+}
+@font-face {
+    src: url("Romantic Couple.ttf");
+    font-family: romantic;
+}
+@font-face {
+    src: url("learning-curve-pro.ttf");
+    font-family: curve;
+}
+*{
+ box-sizing: border-box;
+ scroll-behavior:smooth;
+}
+    .name{
+        color:rgb(202, 68, 68);
+        margin:0;
+        font-family: "romantic";
+        font-size: 3.5em;
+        text-shadow:2px 2px rgb(73, 70, 70);
+    }
+    
+    html, body {
+        margin: 0;
+        height: 100%;
+    } 
+
+    
+    h2 {
+        font-size: 2em;
+        font-family: "curve";
+        font-weight: bolder;
+    }
+
+    .img-container {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("pexels 6.jpg");
+        height: 70%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+   
+    .inner-container {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        color:white;
+        height: auto;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 4em;
+        font-family: "august";
+        font-weight: bolder;
+    }
+    .header1 {
+        
+        font-family: "august";
+        font-size: 2.5em;
+        text-align: center;
+        font-weight: bolder; 
+    }
+    .poem-1 {
+        font-family: "curve";
+        font-size: 1.5em;
+    }
+    .main-header {
+        background:rgb(20, 19, 19);
+        padding: 15px;
+        margin:0;
+        text-align: center;
+        width: 100%;
+        
+    } 
+
+    .main-nav {
+        list-style-type:none;
+        margin:0;
+        display: block;
+        text-align: center;
+    }
+
+    li, a{
+        color:white;
+        font-size:27px;
+        font-weight: bolder;
+        padding:10px;
+        text-decoration: none;
+        font-family: "romantic";
+        text-shadow:1px 1px rgb(73, 70, 70);
+        
+    }
+   li a:hover{
+        background-color:rgb(202, 68, 68);
+        color:rgb(20, 19, 19);
+        border-radius:22px;
+        transition:0.7s;   
+    }
+
+
+    .col p {
+        font-family: 'Times New Roman', Times, serif
+    }
+ 
+    .col {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .feat-img {
+        width: 450px;
+        height: 300px;
+
+    }
+     figure {
+        margin: 0;
+        position: relative;
+    }
+    figcaption {
+        font-size: .9em;
+        padding: 7px;
+        background: rgba(77, 74, 74, 0.8);
+        color: white;
+        position: absolute;  
+        bottom: 2.8px;
+        width: auto;
+    }
+    .footer-inner{
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+        font-family:"romantic";
+        text-shadow:1px 1px rgb(73, 70, 70);
+    }
+
+    .main-footer{
+        background: rgb(20, 19, 19);
+        justify-content: center;
+        padding:30px;
+        
+    }
+    
+    @media(min-width: 769px){
+        .main-header{
+            width: 90%;
+            margin: 0;
+        } 
+    }
+    @media(min-width: 1025px){
+        .main-header{
+            width: 100%;
+            max-width: 1349px;
+        }
+    }
