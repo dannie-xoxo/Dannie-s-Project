@@ -20,6 +20,11 @@
         font-family: "romantic";
         font-size: 3.5em;
         text-shadow:2px 2px rgb(73, 70, 70);
+        transition: transform .5s;
+        transform-origin: top left;
+    }
+    .name:hover {
+        transform:scale(1.1)
     }
     
     html, body {
@@ -112,10 +117,8 @@
     }
     .feat-img {
         width: 450px;
-        height: 300px;
+        height: 300px; 
     }
-
-    
     
      figure {
         margin: 0;
@@ -130,19 +133,68 @@
         bottom: 2.8px;
         width: auto;
     }
-    .footer-inner{
+    .inner-1{
         color: white;
-        text-align: center;
-        font-size: 1.5em;
-        font-family:"romantic";
-        text-shadow:1px 1px rgb(73, 70, 70);
+        font-family:'Times New Roman', Times, serif;
+        font-family: "curve";
+        font-size: 1.4em;
+        
+    }
+    .inner-1 p {
+        padding: 6px;
+    }
+
+    span {
+        margin-left: 60px;
+        font-family: "romantic";
+        font-weight:bolder;
+        font-size: 1.2em;
+        
+    }
+
+    .inner-2{
+        color: white;
+        font-family:"curve";
+        font-size: 1.4em;
+        
+       
+    }
+    .inner-2 h3 {
+        font-family: "romantic";
+    }
+
+    .footer {
+        flex: 1 50%;
     }
 
     .main-footer{
         background: rgb(20, 19, 19);
-        justify-content: center;
-        padding:30px;
+        padding:20px;
         
+    }
+    /* icon logo style*/
+    .logo {
+        width: 35px;
+        float: left;
+        margin-left: 60px;
+        margin-right: 10px;
+        transition: transform .5s;  
+    }
+    .logo:hover {
+        transform: scale(1.1);
+    }
+
+    .first {
+        margin-top: 20px;
+    }
+
+    .icon {
+        width: 35px;
+        display: inline;
+        transition: transform .5s;  
+    }
+    .icon:hover {
+        transform: scale(1.1);
     }
     
     @media(min-width: 769px){

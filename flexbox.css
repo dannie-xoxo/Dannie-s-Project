@@ -3,7 +3,8 @@
  @media(min-width: 769px){
    .main-header ,
    .main-nav,
-   .row {
+   .row,
+   .main-footer {
     display: flex;
     
      
