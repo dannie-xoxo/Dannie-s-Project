@@ -87,6 +87,12 @@
         display: block;
         text-align: center;
     }
+    li a.active {
+        background:rgb(202, 68, 68);
+        color:rgb(20, 19, 19);
+        border-radius: 22px;
+
+    }
 
     li, a{
         color:white;
